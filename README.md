@@ -1,4 +1,4 @@
-# firstAppInAppSquare
+# firstTaskAppSaqure
 # Registration Screen Validation
 This project implements validation on a registration screen mockup created in Figma.
 ## 📷 Screenshots from figma 
