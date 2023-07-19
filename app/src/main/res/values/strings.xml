@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">firstApp</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_up_info">Create your personal profile.com and follow.</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="email">Email</string>
+    <string name="password">password</string>
+    <string name="city">City</string>
+    <string name="terms_title">By signing up, you agree to the </string>
+    <string name="terms_details">Terms of </string>
+    <string name="terms_details_two">Service and Privacy Policy</string>
+    <string name="login_text_title">Already have an account?</string>
+    <string name="sign_up_text_title">Don’t have an account yet?</string>
+    <string name="login_text">Login</string>
+    <string name="enter_personal_perfoile"> Enter to your personal profile.com and follow. </string>
+    <string name="login_text_underline"> <u>Login</u>.</string>
+    <string name="sign_up_text_underline"> <u>Sign Up</u>.</string>
+    <string name="comming_soon_text"> Comming Soon.</string>
+    <string name="Refresh_text"> Refresh </string>
+
+</resources>

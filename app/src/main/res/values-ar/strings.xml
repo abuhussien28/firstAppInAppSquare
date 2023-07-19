@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sign_up">تسجيل جديد</string>
+    <string name="sign_up_info">قم بإنشاء ملف الشخصي الخاص بك واتبعه.</string>
+    <string name="phone_number">رقم الهاتف</string>
+    <string name="email"> بريد إلكتروني </string>
+    <string name="city">مدينة</string>
+    <string name="password">رقم السري</string>
+    <string name="terms_title">بالتسجيل ، فإنك توافق على</string>
+    <string name="terms_details_two"> الخدمة وخصوصية السياسة</string>
+    <string name="terms_details">بنود</string>
+    <string name="login_text_title">هل لديك حساب؟</string>
+    <string name="sign_up_text_title">اليس لديك حساب بعد؟</string>
+    <string name="login_text">تسجيل الدخول</string>
+    <string name="enter_personal_perfoile"> أدخل إلى ملف الشخصي الخاص بك وتابع. </string>
+    <string name="login_text_underline"> <u>تسجيل الدخول</u>.</string>
+    <string name="sign_up_text_underline"> <u>تسجيل جديد</u>.</string>
+    <string name="comming_soon_text"> قريبا</string>
+    <string name="Refresh_text"> Refresh </string>
+</resources>
