@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CityDetails">
+
+   <ImageView
+       android:id="@+id/image_view_details_back"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="@dimen/space_16dp"
+       android:src="@drawable/ic_back_deatls_background"
+       app:layout_constraintStart_toStartOf="@+id/image_view_details_city_image"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <ImageView
+       android:id="@+id/image_view_details_city_image"
+       android:layout_width="@dimen/image_view_det_width"
+       android:layout_height="@dimen/image_view_det_heg"
+       android:layout_marginHorizontal="@dimen/space_27dp"
+       android:layout_marginTop="@dimen/space_normal"
+       android:background="@drawable/image_view_city_background"
+       android:scaleType="centerCrop"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/image_view_details_back"
+       tools:src="@drawable/image_city_one" />
+
+   <TextView
+       android:id="@+id/text_view_city_title"
+       android:layout_width="@dimen/zero"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="@dimen/space_27dp"
+       android:fontFamily="@font/montserrat_bold"
+       android:textSize="@dimen/text_size_26"
+       app:layout_constraintEnd_toStartOf="@+id/text_view_city_details_review"
+       app:layout_constraintStart_toStartOf="@+id/image_view_details_city_image"
+       app:layout_constraintTop_toBottomOf="@+id/image_view_details_city_image"
+       tools:text="Coeurdes Alpes" />
+
+   <TextView
+       android:id="@+id/text_view_city_details_review"
+       android:layout_width="@dimen/zero"
+       android:layout_height="wrap_content"
+       android:textColor="@color/Dodger_Blue_color"
+       android:textSize="@dimen/text_size_14"
+       app:layout_constraintBottom_toBottomOf="@+id/text_view_city_title"
+       app:layout_constraintEnd_toEndOf="@+id/image_view_details_city_image"
+       app:layout_constraintTop_toTopOf="@+id/text_view_city_title"
+       tools:text="355 reviews" />
+
+   <TextView
+       android:id="@+id/text_view_city_details"
+       android:layout_width="@dimen/zero"
+       android:layout_height="wrap_content"
+       android:fontFamily="@font/abel"
+       android:textColor="@color/text_details_color"
+       android:textSize="@dimen/text_size_14"
+       app:layout_constraintEnd_toEndOf="@+id/text_view_city_details_review"
+       app:layout_constraintStart_toStartOf="@+id/text_view_city_title"
+       app:layout_constraintTop_toBottomOf="@id/text_view_city_title"
+       android:text="@string/city_des"
+       />
+</androidx.constraintlayout.widget.ConstraintLayout>
