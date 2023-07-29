@@ -1,8 +1,11 @@
 # firstTaskAppSaqure
-# Registration Screen Validation
+# Registration Screen Validation and HomeScreen and Details
 This project implements validation on a registration screen mockup created in Figma.
 ## 📷 Screenshots from figma 
-![desgin in figma](https://github.com/abuhussien28/WeatherMate/assets/96633008/6561136f-a0c5-4aae-a096-c9b6ade44c11)
+![taskone](https://github.com/abuhussien28/taskInAppSaquare/assets/96633008/76a5d95b-98ac-4f78-8252-b223e67da76d)
+
+![task two](https://github.com/abuhussien28/taskInAppSaquare/assets/96633008/a5d53987-7f18-47fd-9508-e90aeaecbb8b)
+
 
 ## Overview
 
@@ -24,7 +27,8 @@ Validation is implemented to check:
 * Terms & Conditions is checked
 
 If any validation fails, the user cannot proceed from the `Sign Up` button.
-
+*************************************************************************************
+make recycler view and make screen for details of each item 
 
 ## Implementation
 * The UI is implemented in XML following the Figma mockup
