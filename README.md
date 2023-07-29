@@ -29,6 +29,11 @@ Validation is implemented to check:
 If any validation fails, the user cannot proceed from the `Sign Up` button.
 *************************************************************************************
 make recycler view and make screen for details of each item 
+************************************
+and using navigation component 
+and this is nav_graph 
+
+![nav_graph](https://github.com/abuhussien28/taskInAppSaquare/assets/96633008/8d58a548-d188-4dab-bc45-1efe9e82a499)
 
 ## Implementation
 * The UI is implemented in XML following the Figma mockup
