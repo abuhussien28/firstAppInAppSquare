@@ -5,6 +5,7 @@
     <dimen name="space_normal">8dp</dimen>
     <dimen name="space_16dp">16dp</dimen>
     <dimen name="space_17dp">17dp</dimen>
+    <dimen name="space_20dp">20dp</dimen>
     <dimen name="space_27dp">27dp</dimen>
     <dimen name="spacexxLarge">32dp</dimen>
     <dimen name="space_44dp">44dp</dimen>
@@ -16,5 +17,12 @@
     <dimen name="text_size_14">14sp</dimen>
     <dimen name="text_size_16">16sp</dimen>
     <dimen name="text_size_18">18sp</dimen>
+    <dimen name="text_size_26">26sp</dimen>
     <dimen name="text_size_37">37sp</dimen>
+    <dimen name="image_view_det_width">374dp</dimen>
+    <dimen name="image_view_det_heg">267dp</dimen>
+    <dimen name="image_home_item_width">210dp</dimen>
+    <dimen name="image_view_det_height">177dp</dimen>
+    <dimen name="image_view_home_logo_width">136dp</dimen>
+    <dimen name="image_view_home_logo_height">117dp</dimen>
 </resources>

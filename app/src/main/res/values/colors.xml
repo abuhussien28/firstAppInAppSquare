@@ -8,4 +8,5 @@
     <color name="Light_60">#F1F1FA</color>
     <color name="Light_20">#91919F</color>
     <color name="grey">#997E7C7C</color>
+    <color name="text_details_color">#3A544F</color>
 </resources>

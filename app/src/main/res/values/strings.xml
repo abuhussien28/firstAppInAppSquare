@@ -17,5 +17,9 @@
     <string name="sign_up_text_underline"> <u>Sign Up</u>.</string>
     <string name="comming_soon_text"> Comming Soon.</string>
     <string name="Refresh_text"> Refresh </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="popular_cities">Popular Cities</string>
+    <string name="city_des">Aspen is as close as one can get to a storybook alpine town in America. The choose-your-own-adventure possibilities—skiing, hiking, dining shopping and Aspen is as close as one can get to a storybook alpine town in America. The choose-your-own-adventure possibilities—skiing, hiking,</string>
 
 </resources>

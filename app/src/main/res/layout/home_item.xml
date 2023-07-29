@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="@dimen/zero"
+    android:layout_marginHorizontal="@dimen/space_16dp"
+    android:layout_marginBottom="@dimen/space_47dp"
+    >
+
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/space_16dp"
+    >
+
+    <ImageView
+        android:id="@+id/image_view_city"
+        android:layout_width="@dimen/image_home_item_width"
+        android:layout_height="@dimen/image_view_det_height"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:scaleType="centerCrop"
+        android:background="@drawable/image_view_city_background"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/text_view_city_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/text_size_16"
+        android:fontFamily="@font/montserrat_bold"
+        android:textSize="@dimen/text_size_18"
+        app:layout_constraintBottom_toBottomOf="@+id/image_view_city"
+        app:layout_constraintStart_toEndOf="@id/image_view_city"
+        app:layout_constraintTop_toTopOf="@id/image_view_city"
+        tools:text="Coeurdes Alpes" />
+
+    <TextView
+        android:id="@+id/text_view_city_review"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter"
+        android:textColor="@color/Dodger_Blue_color"
+        android:textSize="@dimen/text_size_14"
+        app:layout_constraintEnd_toEndOf="@+id/text_view_city_name"
+        app:layout_constraintStart_toStartOf="@id/text_view_city_name"
+        app:layout_constraintTop_toBottomOf="@id/text_view_city_name"
+        tools:text="355 reviews" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
