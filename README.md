@@ -1,4 +1,4 @@
-# firstTaskAppSaqure
+# TaskAppSaqure
 # Registration Screen Validation and HomeScreen and Details
 This project implements validation on a registration screen mockup created in Figma.
 ## 📷 Screenshots from figma 
