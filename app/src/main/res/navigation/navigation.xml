@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/loginScreen"
-        android:name="com.example.firstapp.LoginScreen"
+        android:name="com.example.firstapp.ui.fragment.login.LoginScreen"
         android:label="fragment_login_screen"
         tools:layout="@layout/fragment_login_screen" >
         <action
@@ -19,7 +19,7 @@
     </fragment>
     <fragment
         android:id="@+id/signUpScreen"
-        android:name="com.example.firstapp.SignUpScreen"
+        android:name="com.example.firstapp.ui.fragment.signup.SignUpScreen"
         android:label="SignUpScreen"
         tools:layout="@layout/fragment_sign_up_screen"
         >
@@ -32,7 +32,7 @@
     </fragment>
     <fragment
         android:id="@+id/homeScreen"
-        android:name="com.example.firstapp.HomeScreen"
+        android:name="com.example.firstapp.ui.fragment.home.HomeScreen"
         android:label="fragment_home_screen"
         tools:layout="@layout/fragment_home_screen" >
         <action
@@ -41,7 +41,7 @@
     </fragment>
     <fragment
         android:id="@+id/cityDetails2"
-        android:name="com.example.firstapp.CityDetails"
+        android:name="com.example.firstapp.ui.fragment.homedetails.CityDetails"
         android:label="fragment_city_details"
         tools:layout="@layout/fragment_city_details" >
         <argument

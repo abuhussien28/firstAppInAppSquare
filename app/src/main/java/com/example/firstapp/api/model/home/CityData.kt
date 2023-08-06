@@ -1,4 +1,4 @@
-package com.example.firstapp.model
+package com.example.firstapp.api.model.home
 
 import android.os.Parcelable
 

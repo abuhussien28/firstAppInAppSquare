@@ -1,7 +1,6 @@
-package com.example.firstapp
+package com.example.firstapp.ui.fragment.homedetails
 
 import android.os.Bundle
-import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
@@ -10,8 +9,9 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.navigation.Navigation
 import androidx.navigation.fragment.navArgs
-import com.example.firstapp.model.CityData
-import com.example.firstapp.model.FakeData
+import com.example.firstapp.CityDetailsArgs
+import com.example.firstapp.R
+import com.example.firstapp.api.model.home.FakeData
 
 
 class CityDetails : Fragment() {

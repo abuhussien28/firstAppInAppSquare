@@ -1,4 +1,4 @@
-package com.example.firstapp.adapter
+package com.example.firstapp.ui.fragment.home.adapter
 
 import android.view.LayoutInflater
 import android.view.View
@@ -7,9 +7,9 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
-import com.example.firstapp.CityInteractionListener
+import com.example.firstapp.ui.fragment.home.CityInteractionListener
 import com.example.firstapp.R
-import com.example.firstapp.model.CityData
+import com.example.firstapp.api.model.home.CityData
 
 class HomeAdapter(val data: List<CityData>, val listener: CityInteractionListener) :
     RecyclerView.Adapter<HomeAdapter.CityViewHolder>() {
